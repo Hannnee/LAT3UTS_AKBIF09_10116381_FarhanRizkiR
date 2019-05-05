@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FriendList">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/kontak"
+
+                    />
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="Roihan Pratama F"
+                    android:textColor="#16a085"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/kontak"
+
+                    />
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="Fael Antoni W"
+                    android:textColor="#16a085"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kontak"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="Angga Aditya R"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kontak"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="Sugeng"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kontak"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="Ikhwanu Arriyadh"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kontak"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="Iqbal Dzulfikry Bustamin"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kontak"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="Zen Ahmad"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kontak"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="Weliam Manupputy"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView></GridLayout>
+
+</ScrollView>

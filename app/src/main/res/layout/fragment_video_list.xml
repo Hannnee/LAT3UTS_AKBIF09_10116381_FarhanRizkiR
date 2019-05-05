@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VideoList">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_ondemand_video_green"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Post Malone Sunflower"
+                    android:textSize="18sp"
+                    android:textColor="#16a085"
+                    android:layout_marginTop="12dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_ondemand_video_green"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ava Max Sweet But Psicho"
+                    android:textSize="18sp"
+                    android:textColor="#16a085"
+                    android:layout_marginTop="12dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_ondemand_video_green"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dean LewisBe alright"
+                    android:textSize="18sp"
+                    android:textColor="#16a085"
+                    android:layout_marginTop="12dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_ondemand_video_green"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conan Gray Idl Town"
+                    android:textSize="18sp"
+                    android:textColor="#16a085"
+                    android:layout_marginTop="12dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_ondemand_video_green"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3:00 AM Finding Hope"
+                    android:textSize="18sp"
+                    android:textColor="#16a085"
+                    android:layout_marginTop="12dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_ondemand_video_green"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Linkin Park No Body can Save Me"
+                    android:textSize="18sp"
+                    android:textColor="#16a085"
+                    android:layout_marginTop="12dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_ondemand_video_green"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="illenium Afterlife"
+                    android:textSize="18sp"
+                    android:textColor="#16a085"
+                    android:layout_marginTop="12dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_ondemand_video_green"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Said The Sky Eraseme"
+                    android:textSize="18sp"
+                    android:textColor="#16a085"
+                    android:layout_marginTop="12dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </GridLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="GalleryFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop"
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/galeri1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="8dp"
+                android:text="Gn.Merbabu 04/03/2019"
+                android:textSize="16sp"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop1"
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardTop">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/galeri2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="8dp"
+                android:text="Gn.Sumbing 20/03/2019"
+                android:textSize="16sp"
+                />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop2"
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardTop1">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/galeri3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="8dp"
+                android:text="Gn.Sumbing 19/03/2019"
+                android:textSize="16sp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop3"
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardTop4">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/galeri5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="8dp"
+                android:text="Gn.Sumbing 19/03/2019"
+                android:textSize="16sp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop4"
+            android:layout_width="340dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardTop2">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/galeri4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginBottom="8dp"
+                android:text="Gn.Sumbing 20/03/2019"
+                android:textSize="16sp"
+                />
+
+        </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</ScrollView>

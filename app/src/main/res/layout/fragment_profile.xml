@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ProfileFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop"
+            android:layout_width="164dp"
+            android:layout_height="202dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_queue_music_green" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Profile"
+                android:textColor="#16a085" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop1"
+            android:layout_width="164dp"
+            android:layout_height="289dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintStart_toEndOf="@+id/cardTop"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/findme" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="FindMe"
+                android:textColor="#16a085" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop5"
+            android:layout_width="164dp"
+            android:layout_height="202dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardTop">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="77dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_perm_contact_green" />
+
+            <TextView
+                android:id="@+id/textView02"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Contcat"
+                android:textColor="#16a085" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop6"
+            android:layout_width="160dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="40dp"
+            app:layout_constraintStart_toEndOf="@+id/cardTop5"
+            app:layout_constraintTop_toBottomOf="@+id/cardTop1">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="84dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/about" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardTop7"
+            android:layout_width="330dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardTop5">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="61dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/version" />
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</ScrollView>

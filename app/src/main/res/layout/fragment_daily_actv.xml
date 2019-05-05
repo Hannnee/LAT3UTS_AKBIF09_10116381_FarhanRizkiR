@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DailyActivity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/wakeup"
+
+                    />
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="03:00 WakeUp Dude"
+                    android:textColor="#16a085"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/pray"
+
+                    />
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="04:00 Subuh"
+                    android:textColor="#16a085"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/jogging"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="05:00 Jogging"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/makan"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="07:00 Breakfast"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/kampus"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="08:00 Goes to Campus"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pray"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="12:00 Duhur"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/makan"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="13:00 Lunch"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/game"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="14:00 Playing Other Games"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView> <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pray"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="15:00 Asar"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pray"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="17:00 I will Take a Bath"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="15dp"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pray"
+
+                />
+
+            <TextView
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="18:00 Magrib"
+                android:textColor="#16a085"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/pray"
+
+                    />
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="19:00 Isya"
+                    android:textColor="#16a085"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/makan"
+
+                    />
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="20:00 Dinner Alone"
+                    android:textColor="#16a085"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="5dp"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/pray"
+
+                    />
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="21:00-03:00 Me Time :)"
+                    android:textColor="#16a085"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+            />
+    </GridLayout>
+
+
+
+</ScrollView>
